@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 278.73 198.69">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #45283c;
+        stroke-width: 8px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-4 {
+        fill: #45283c;
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-5 {
+        fill: #f9e33d;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="0" width="278.73" height="198.69"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-2" x="51.19" y="163.5" width="23.64" height="23.64"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-2" x="203.63" y="163.5" width="23.64" height="23.64"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-2" x="94.69" y="50.02" width="87.6" height="86.4"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-2" x="94.69" y="49.42" width="87.6" height="87.6"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g class="cls-8">
+        <path class="cls-5" d="M148.24,74.17c-4.9-4.46-12.85-4.46-17.75,0L6.93,186.61c-4.9,4.46-3.5,8.08,3.12,8.08h258.62c6.63,0,8.03-3.62,3.12-8.08l-123.56-112.44Z"/>
+        <path class="cls-1" d="M148.24,74.17c-4.9-4.46-12.85-4.46-17.75,0L6.93,186.61c-4.9,4.46-3.5,8.08,3.12,8.08h258.62c6.63,0,8.03-3.62,3.12-8.08l-123.56-112.44Z"/>
+        <path class="cls-4" d="M41.71,0C34.53,0,28.71,5.82,28.71,13v148.88h221.04V13C249.75,5.82,243.93,0,236.75,0H41.71Z"/>
+      </g>
+      <rect class="cls-5" x="51.41" y="30.06" width="175.64" height="120.93"/>
+      <g class="cls-6">
+        <image width="32" height="32" transform="translate(51.19 163.5) scale(.74)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAYAAACcuBHKAAAACXBIWXMAAA7qAAAO6gGjimNxAAAA3UlEQVRYhe1VQRLDIAgMTh6TR/TaV3v1Ef4mPdkxhFWoxnpwbwosq4Js28LCggzSOr6P12kh9jGouYuO1sQINUGiESXXns4af9mUgi3XqhXEOQk5S8m1z6OJzX2IO3CC1roo8SUbIQG9irLG7WMgN0KAlDi3ubv7eMwl4oknQOC5nGRs/RskJE7psDvf4EJ6tWiJ5yYCibEIssZcREiqS62FUJsd3C7ehI+BJKKWpykdQNWivxSqJQbWBCJFHdTSWXN8Vk/8CVqk3C5f/EPAV8RoIWuKIsAW7T07pscHH5Ob8H35FKEAAAAASUVORK5CYII="/>
+      </g>
+      <g class="cls-3">
+        <image width="32" height="32" transform="translate(203.63 163.5) scale(.74)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7qAAAO6gGjimNxAAAA1klEQVRYhe1VSQ7DIAzEKI/pI3rtq7nyCH7TnpCI5SE2a6RmTlFszwxgg3MPHvw7SJv4eb2/FuKQooq7mmQVbTEjBpCwdlWW+tMPqVArajFTchJKlIS1R6KpzTnEg7y4tw9qfCFFIiQ+qgGvuP0Kcc5Zank5fR3uY2DGtiOIPVAGemdfQubkC6WrW2vUGCIeaIATWMxYasR7YPZbUMYPlCiR9BwHMq8aw5am1NaIO1AjRJPSOkH7L6IZM69FSJF8/tgh7hx4DVeJnwzswnYDcAxHvwW3xQ804ZmPrVEQaQAAAABJRU5ErkJggg=="/>
+      </g>
+      <g class="cls-9">
+        <g class="cls-7">
+          <image width="32" height="32" transform="translate(94.69 49.42) scale(2.74)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAYAAACcuBHKAAAACXBIWXMAAAP/AAAD/wGuK+TeAAAA+0lEQVRYhe1WQRaEIAgNX4eZQ8x2Tu3WQ3ibmcW8eoRgoGgtYlUin09+pGV57G+g3fh5vb/bc8yJjdPsMZHAgFZQa/zB0VqJlZSITZmPNJor0IWRZKRcQJ0a0WnMIl7AThro9VU4XLxmqlorVmv8aeW9XaLBBGkzl1x7PJrY4jhqwuzVRQ1vF6ZEwLtVJeyYE4QZBLjE2BfK7fPtXiQunR2c03uCYkyu2JUuUCJeLVrDKUhIZCyErDEHEhzrlh+ds9lB/eyXiDkBB9RzNLUCVC3aIlRLjKgJCVTqoJ7OusdlNeJO0NqWO+CXKwjsJGYTeaaoZGKLes+Omv0AqmLN5Wok81EAAAAASUVORK5CYII="/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

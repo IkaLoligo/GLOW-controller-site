@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plong controller</title>
+    <link rel="stylesheet" href="src/style.css">
+
+</head>
+<body>
+    <div id="yellow">
+        <div id="pong">
+            <div id="pongFrontVisual">
+                <!--Title-->
+                <h1>PONG</h1>
+                <img src="src/img/2x/Asset 7@2x.png" alt="">
+                <h2>Disecting <br>the <br>classic</h2>
+            </div>
+            <div>
+                <!--Disecting PONG-->
+                <h3>Disecting PONG</h3>
+                <p>To understand Pong, we have to dive into its development and innerworkings. And also
+                    how it was further shaped into different versions. This way our we have a good under-
+                    standing in what makes Pong, Pong. <br> <br>
+        
+                    With that information we can look into how to develop Plong in an satisfying user expierence. 
+                    This way we want to make people aware what alternative energy sources can
+                    power. And hopefully inspire others to take more green alternatives to powering their
+                    projects. With Plong leaving a possitive remark and jumpstart. <br> <br>
+                    Here we will dive briefly in Pong’s legacy. When was it created, how was it created and
+                    how did it develop further. From there, further in this document, we will explain our
+                    process building Plong. Taking you by the hand along the challenges we faced, and choices we made.</p>
+            </div>
+            <div id="index">
+                <!--Index-->
+                <h2>INDEX</h2>
+                <ul>
+                    <li>The elements</li>
+                    <li>Variating on Pong</li>
+                    <li>Pong | Plants being Pong</li>
+                    <li>Building Plong | A quick overview</li>
+                    <li>Dispaying Plong</li>
+                    <li>Durability of plong</li>
+                    <li>Controlling plong | Possible controls</li>
+                </ul>
+            </div>
+            <div>
+                <!--The elements-->
+                <h2>THE ELEMENTS</h2>
+                <p>Pong is one of the first games to achieve commercial succes. As a product of it’s time, being build in 1972, it’s UI is simple. It is build up out of a minimal ammount of pixels,
+                     protraying a simple ping pong table. Below we will get into the elements more closely</p>
+            </div>
+            <div id="theElements">
+                    <!--The elements box div holder-->
+                <div>
+                        <!--text boxes-->
+                    <div class="txtBxLImgR">
+                        <div class="txtBxLFlxCol">
+                            <p class="bold">[]The playingfield</p>
+                            <p>
+                                The playing field consists of a ball, a line in the
+                                middle, the paddles and a scoreboard. The ball
+                                is something the players use to get points.
+                                The line splits the playing field in two. This to
+                                visually communicate which side is which. The
+                                paddles are the main elements the user’s
+                                control. The scoreboard communicates how
+                                much points each player has.
+                            </p>
+                        </div>
+                        <img src="src/img/2x/Asset 1@2x.png" alt="">
+                    </div>
+                    <div class="txtBxLImgR">
+                        <div class="txtBxLFlxCol">
+                            <p class="bold">
+                                []The paddle
+                            </p>
+                            <p>
+                                The paddles are the UI element the user directly controls. It can move up and down on one axis, being often the y axis. 
+                                The paddle’s purpose is to hit the ‘ball’ that is being hit around the playing field. 
+                                It can do this only with the side facing towards the other paddle.
+                            </p>
+                        </div>
+                        <img src="src/img/2x/Asset 2@2x.png" alt="">
+                    </div>
+                    <div class="txtBxLImgR">
+                        <div class="txtBxLFlxCol">
+                            <p class="bold">
+                                []The ball
+                            </p>
+                            <p>
+                                The ball is an element that the user indirectly controls. It can move on two axes’, being the x and y axes. Player can only ‘hit the ball’ with the paddle, 
+                                after which the ball follows a trajectory based on bouncing around the field. 
+                                The other player, if able, bounces the ball the other way. When the ball enters the space behind on of the users’ paddle, the opposite user gets one point.
+                            </p>
+                        </div>
+                        <img src="src/img/2x/Asset 3@2x.png" alt="">
+                    </div>
+                    <div class="txtBxLImgR">
+                        <div class="txtBxLFlxCol">
+                            <p class="bold">
+                                []The scoreboard
+                            </p>
+                            <p>
+                                The scoreboard is also indirectly controlled by the players. Every time the ball gets behind one player’s paddle’, the other gains one point. 
+                                The scoreboard is there to invoke competition between the two players. The player with the most points will win. The game does not have as specified end time. 
+                                It is up to the players deciding when the game has ended.
+                            </p>
+                        </div>
+                        <img src="src/img/2x/Asset 4@2x.png" alt="">
+                    </div>
+                    <div class="txtBxLImgR">
+                        <div class="txtBxLFlxCol">
+                            <p class="bold">
+                                []The controls
+                            </p>
+                            <p>
+                                The physical controls usually exist of two inputs for the paddles. In later versions that were adapted for home usage, 
+                                there were also controls to start and, stop and reset the game. 
+                                The controls for the paddles usually are knobs that can be turned. Later versions also used joysticks. 
+                            </p>
+                        </div>
+                        <img src="src/img/2x/Asset 5@2x.png" alt="">
+                    </div>
+                    <div class="txtBxLImgR">
+                        <div class="txtBxLFlxCol">
+                            <p class="bold">
+                                []The sound
+                            </p>
+                            <p>
+                                The game also produces sound. It plays a ‘plonk’ sound when the balls gets hit by a paddle. This to indicate to the player that the ball has been successfully hit. 
+                                It also plays an ‘skrrsk’ sound when the ball hits on of the players void behind their paddle. This to indicate that the players has failed to deflect.
+                            </p>
+                        </div>
+                        <img src="src/img/2x/Asset 6@2x.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <!--Variating on PONG-->
+                    <h2>Variating on pong</h2>
+                    <p>
+                        After Pong, Atari kept on developing more digital arcade games based on Pong. Quickly they would figure out how to do more complicated graphics, 
+                        leaving pong in their long legacy. A couple of pong likes are here to keep in mind while making Plong.
+                    </p>
+                </div>
+                <div>
+                    <!--variating on PONG box div holder-->
+                    
+                        <!--textboxes-->
+                    <div class="txtBxLImgR">
+                        <div class="txtBxLFlxCol">
+                            <p class="bold">
+                                [] Quadrapong
+                            </p>
+                            <p>
+                                Released in 1974, this remix of pong gives room for up to four players to play pong simultaneously. The original arcade machine had the controls placed on the four sides of it. 
+                                This version would make an hectic version of Pong.
+                            </p>
+                        </div>
+                        <img src="src/img/2x/Asset 8@2x.png" alt="">
+                    </div>
+                    <div class="txtBxLImgR">
+                        <div class="txtBxLFlxCol">
+                            <p class="bold">
+                                []Rebound
+                            </p>
+                            <p>
+                                Rebound is a pong-like released in 1974. In this game two players have to bounce the ball over the net. If the ball hits the ground of one player, the other one gets a point. 
+                                Depending on the lenght of the turn, the net will become heigher. As soon as the ball hits the ground, the net resets.
+                            </p>
+                        </div>
+                        <img src="src/img/2x/Asset 10@2x.png" alt="">
+                    </div>
+                    <div class="txtBxLImgR">
+                        <div class="txtBxLFlxCol">
+                            <p class="bold">
+                                []Breakout
+                            </p>
+                            <p>
+                                This game was released in 1976. Unlike the original Pong, this game is played by one player. The player has to use the paddle to bounce the ball against rectangles above. 
+                                When the ball hits one of the rectangles, it bounces and the rectangle gets destroyed. They will also be rewared a point. The players loses if the ball hits the ground.
+                            </p>
+                        </div>
+                        <img src="src/img/2x/Asset 11@2x.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="green">
+         <div class="plong">
+            <!--Plong plants being pong-->
+            <h2>Plong 1 plants being pong</h2>
+                <div  class="txtBxLTxtBxR">
+                    <div id="txtbxLPlantsBeingPong" class="txtBxLFlxCol">
+                        <p class="bold">
+                            What is Plong?
+                        </p>
+                        <p>
+                            Plong is pong being played across the dommel in Eindhoven. So it is basically pong on a big scale. What makes Plong, Plong, is that it will be powered by plant batteries. 
+                            These plant batteries are based on the tech by plant.e. We will use the batteries to drive the screen and other components. 
+                            This way Plong will be powered by plants. Transferring Pong to Plong.
+                        </p>
+                    </div>
+                    <div id="txtbxRPlantsBeingPong" class="txtBxLFlxCol">
+                        <p class="bold">
+                            Why is Plong being made?
+                        </p>
+                        <p>
+                            Plong is being developed for Glow, a festival celebrating art made with light. The festival is hosted all over Eindhoven, a city in Noord Brabant in the Netherlands. 
+                            The sculptures on the festival are made by artist, companies and students. 
+                            Plong will be developed by students from Fontys ICT deeltijd. They have taken on the challege to make a project for Glow based on Plant.e tech.
+                        </p>
+                    </div>
+            
+                </div>
+            <div>
+                <!--Building plong a quick overview-->
+                <h2>building plong </h2>
+                <div>
+                    <p>
+                        Building Plong won’t be an easy task. Designing a satisfying game takes good preperation, insight and good choice making skills. 
+                        Because building Pong is one thing, but actually building Plong is the second. This website focusses on the controller made for Plong.
+                    </p>
+                    <p>
+                        We will delve into the following subjects:                     
+                    </p>
+                    <ul>
+                        <li>
+                            What controller type fits GLOW?                        
+                        </li>
+                        <li>
+                            What options where we thinking about?                        
+                        </li>
+                        <li>
+                            Which controller did we choose for Plong?                      
+                        </li>
+                    </ul>
+                    <p>
+                        Each of these questions symbolizes the design and build phase of the controller. This way we can show you how the controller has come to be. 
+                        I can say before hand however that this is not yet as refined as to say it is GLOW ready. But the basics are there and ready to be further developed into a nice contender for GLOW. 
+                        Let’s dive into the design process of it all by looking at the people for who the controller is made!
+                    </p>
+            </div>
+
+            <div>
+                <!--What controller type fits the people at GLOW?-->
+                <h2> What controller type fits GLOW? </h2>
+                <p>
+                    For this project one UI student took on themselves the design of the controller. But before they could design, they had to look at for who they were designing. 
+                    As such they researched into who came GLOW, what inputs they like for controlling a digital product, what inputs there are and how to relate to the end user. 
+                    They also looked how the inputs would relate to the environmental factors of GLOW. Out of that research came the advise to use different controller inputs. 
+                    Below is the main conclusion of said research:
+                </p>
+                <div class="TxtquoteTxtBxResGlow">
+                    <div class="quoteTxtBx">
+                        <!--quotebox-->
+                        <p>
+                            “The audience for GLOW is broad and general, appealing to a wide demographic that includes both regional and national visitors, and even some international interest. 
+                            Insights from previous attendees and projects confirm this broad appeal, indicating that GLOW attracts people of all ages. Given Eindhoven's demographic, 
+                            particularly the 25-45 age group, and their digital proficiency, it is important to design Plong with simple digital interfaces that can be easily used by this diverse audience.
+                        </p>
+                        <p>
+                            Survey results indicate that people prefer interfaces they use daily, such as keyboards, labelled buttons, and touchscreens, which are familiar and widely adopted. 
+                            In contrast, motion and voice controls are less popular and less understood. To ensure an intuitive user experience for our controller, we should choose simple, 
+                            well-known inputs to avoid the need for tutorials and prevent user frustration due to complexity or unreliability.
+                        </p>
+                        <p>
+                            Plong requires three types of inputs for gameplay: one to move the paddle, one to signal player readiness, and an admin button to turn the game on and off. 
+                            These inputs ensure players can control the game and indicate their readiness, while the administrator can start, restart, or shut down the game. 
+                            With these basic inputs, all necessary controls for Plong are effectively covered.
+                        </p>
+                        <p>
+                            From the table of goodness, (see table pictured below) based on the information gathered about the inputs, I have five possible inputs that rank the highest for the paddle control.
+                            These are Buttons, a DDR style pad, a Turnable knob, a steeringwheel and a joystick/slider. These inputs can be considered the best theoretical fit for PLONG on GLOW. 
+                            And should give a good user experience for the people attending GLOW.”
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Requirements</th>
+                                <th>User compatibility</th>
+                                <th>Weatherproof</th>
+                                <th>Sturdiness</th>
+                                <th>Novelty</th>
+                                <th>Overall</th>
+                            </tr>
+                            <tr>
+                                <td>Buttons</td>
+                                <td>*****</td>
+                                <td>*****</td>
+                                <td>****</td>
+                                <td>*</td>
+                                <td>****</td>
+                            </tr>
+                            <tr>
+                                <td>DDR style dancepad</td>
+                                <td>*****</td>
+                                <td>*****</td>
+                                <td>****</td>
+                                <td>****</td>
+                                <td>****</td>
+                            </tr>
+                            <tr>
+                                <td>Joystick</td>
+                                <td>***</td>
+                                <td>****</td>
+                                <td>***</td>
+                                <td>****</td>
+                                <td>****</td>
+                            </tr>
+                            <tr>
+                                <td>LiDAR (motion control)</td>
+                                <td>**</td>
+                                <td>**</td>
+                                <td>*****</td>
+                                <td>*****</td>
+                                <td>**</td>
+                            </tr>
+                            <tr>
+                                <td>Touch sensor</td>
+                                <td>***</td>
+                                <td>**</td>
+                                <td>****</td>
+                                <td>***</td>
+                                <td>***</td>
+                            </tr>
+                            <tr>
+                                <td>Steering wheel</td>
+                                <td>*****</td>
+                                <td>****</td>
+                                <td>****</td>
+                                <td>**</td>
+                                <td>****</td>
+                            </tr>
+                            <tr>
+                                <td>Touch screen</td>
+                                <td>*****</td>
+                                <td>**</td>
+                                <td>**</td>
+                                <td>***</td>
+                                <td>***</td>
+                            </tr>
+                            <tr>
+                                <td>Steerable knob</td>
+                                <td>*****</td>
+                                <td>****</td>
+                                <td>****</td>
+                                <td>***</td>
+                                <td>****</td>
+                            </tr>
+                        </table>
+                    </div>
+               </div>
+               <div class="TxtquoteTxtBxResGlow">
+                    <div class="quoteTxtBx">
+                        <p>
+                            From here the UI student went on to make further prototypes based on the findings out of that research. 
+                            The complete document can be read <a href="src/docs/What is a good controller user experience for people at GLOW.pdf">by clicking here.</a> 
+                            It is a pdf of the research document where everything is written out more detailed. 
+                            After looking what controller could fit GLOW, they went to the drawing board.
+                        </p>
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <div>
+                <!--What options where we thinking about?-->
+                
+                <div class="TxtquoteTxtBxResGlow">
+                    <div class="quoteTxtBx">
+                        <h2>What options where we thinking about?</h2>
+                        <p>
+                            For the controller we had multiple options to work out. The controller UI student took the possible controllers 
+                            from the research and went too the drawing board. They made 3d designs for the following controllers:
+                        </p>
+                        <ul>
+                            <li><a href="#buttonControllers">Button controllers</a></li>
+                            <li>Stick and poke</li>
+                            <li>Joystick</li>
+                            <li>Turn able knob</li>
+                        </ul>
+                        <p>
+                            Two controller inputs where not developed further that seemed a good fit according to the research. 
+                            This were the DDR style pad and the steering wheel. The DRR style pad was incorporated in the ideas for button controls. 
+                            But it didn’t get further in the 3d design phase. A concept drawing of it was made however
+                        </p>
+                        <p>
+                            The steering wheel fell out of the designing phase. It was felt that it was familiar to the turning knob, 
+                            which could be scaled to the same size as the steering wheel. Because of that, it fell out of further development.
+                        </p>    
+                        <p>
+                            An extra controller type did get an 3d design however. This is the stick and poke. We will explain this one at it’s own paragraph. 
+                            However it will be explained why it is here. This controller type is here because the idea came as a complete controller, 
+                            rather then an actual controller input type. It uses buttons as input, as such it can be seen as a button controller.
+                        </p>
+                        <p>
+                            Having that said, now we’ll go into the first controller designs that were made for Plong. We will go over what the idea was behind the controller, 
+                            how it works and how it looks. And of course there will be pictures to show the process!
+                        </p>
+                        <h3 id="buttonControllers">Button controllers</h3>
+                        <p>
+                            Here we will go into the design process of the button controller. First the drawn concepts will be shown and explained what the idea behind them was. 
+                            We will also show the 3d files were made and what the thought process was behind them. 
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol" class="txtBxLFlxImgRRow" >
+                        <h4>The concept drawings</h4>
+                        <p>
+                            To the right are two drawings and one concept drawing of the button controller. It was the idea to make two buttons in the shape of lilypads. 
+                            This because Plong had a styling to be in tune with nature. 
+                            The idea was to shape the controller into a shape of plants that you could find in or next to water. As such the lilypad shaped buttons. 
+                        </p>
+                        <p>
+                            There are two versions. For version one, the controller would be placed on arms lengths. This way the controlled can be used by the players hands. 
+                            The controller would then be shaped like a pond where lily pads floated in it. 
+                            On Lilypad would correspondent for the left movement, the other for the right movement. The concept drawing of this is the picture on the left.
+                        </p>
+                        <p>
+                            The second version was made to be controlled by the feet of the user. Same as the hand button, the controller would be shaped like a pond with lily pads. 
+                            If the player wanted the paddle to go to the left, they would put more pressure on the left Lilypad. 
+                            If they wanted to got to the right, they would put more weight on the right. Added to this concept is the heartbeat sensor. 
+                            This is fitted in the cattail right in front of the player. The player should put their hands on it if they wanted to signal they are ready to play. 
+                            Drawings of this controller are the middle and right one.
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxRow">
+                        <ol>
+                            <li><img src="src/img/pixelPictures/button2.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/button1.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/button3.png" alt=""></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol" class="txtBxLFlxImgRRow" >
+                        <h4>The stl designs</h4>
+                        <p>
+                            Below is the design process of the button stl quoted from the controller designer:
+                        </p>
+                        <p>
+                            “The idea for a button was fairly simple. Making it not so much. I eventually chose to make the top of the button rest on the hardware button, 
+                            while nestling the hardware in a base.
+                        </p>
+                        <p>
+                            The button had a trench so that the wire could come out of the plastic casing. This way it could be hooked up to the Arduino for prototyping.
+                        </p>
+                        <p>
+                            The button did not make it to prototyping however, since the design was not finalised for that phase. 
+                            The sketches higher up explained how it was viewed to work.”
+                        </p>
+                        <p>
+                            Pictured to the left are the button designs in 3d. The first picture shows the design start of the basic button. It was not styled as a lily pad yet however. 
+                            These designs did not take that in account yet. 
+                        </p>
+                        <p>
+                            The second version is pictured in the following two pictures. A place for the hardware button was made, as well as a trench for the cabling. 
+                            In this version the top lid was too low, meaning the cable wouldn’t make it out of the button"
+                        </p>
+                        <p>
+                            On too the third version, the problems of the last version was taken into account. There was added a cable trench that went all the way to the bottom. 
+                            However, there wasn’t a place for the hardware button to fit in on the bottom plate. Pictured in the next two pictures
+                        </p>
+                        <p>
+                            The forth version was the last that was designed for the button. Here there was a indent made in the top lid of the button. 
+                            This to make sure the button didn’t float as high as it did earlier. This version is pictured in the last two pictures. After this one it wasn’t developed further. “
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxRow">
+                        <ol>
+                            <li><img src="src/img/stlPictures/button.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/button v2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/button v2 2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/button v3.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/button v3 2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/button v4.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/button v4 2.png" alt=""></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="TxtquoteTxtBxResGlow">
+                    <div class="quoteTxtBx">
+                        <h3 id="stickAndPoke">Stick and poke</h3>
+                        <p>
+                            Here we will go into the design process of the stick and poke controller. First the drawn concepts will be shown and explained what the idea behind them was. 
+                            We will also show the 3d files were made and what the thought process was behind them. 
+                        </p>
+                    </div>
+                    </div>
+
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol">
+                        <h4>The concept drawings</h4>
+                        <p>
+                            For the stick and poke controller, it was imagined that the player would use a stick and poke it in one of the holes. 
+                            These holes correspond to an area on the led screen. When the player for example would put the stick in the left most hole, 
+                            the paddle would move to that place on the grid. In the drawing to the left the stick is made to look like an cattail, one all too familiar riverside plant. 
+                            This controller could be small, but also be scaled to 1:1 scale. In this scale the player would pick up the cattail and move it around. 
+                            In a smaller version the stick would be tethered on a lead.
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxCol">
+                        <img src="src/img/pixelPictures/stickandpoke1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol" class="txtBxLFlxImgRRow" >
+                        <h4>The stl designs</h4>
+                        <p>
+                            The controller designer on the stick and poke STL design:
+                        </p>
+                        <p>
+                            “For the STL design I came as far as the button cradle and top. The top would the be topped of by a small layer of plastic to separate the buttons and the stick. 
+                            This design didn’t make it further then these two initial STL versions. 
+                            It didn’t pass the prototype choice. As such development of this one won’t go further.
+                        </p>
+                        <p>
+                            The first two pictures picture the first version. In this version the cradle didn’t fit in the top end. 
+                            Because of this it couldn’t be fitted into the top end with the holes. 
+                        </p>
+                        <p>
+                            In the second version I fixed that, pictured in the last two pictures It was a bit smaller then the top end, making it possible to slot these into each other. 
+                            This was the last version however, no other designs were made for this controller type.”
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxRow">
+                        <ol>
+                            <li><img src="src/img/stlPictures/point and click v1.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/point and click v1 2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/point and click v2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/point and click v2 2.png" alt=""></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="TxtquoteTxtBxResGlow">
+                    <div class="quoteTxtBx">
+                        <h3>the Joystick</h3>
+                        <p>
+                            Here we will go into the design process of the joystick. First the drawn concepts will be shown and explained what the idea behind them was. 
+                            We will also show the 3d files were made and what the thought process was behind them.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol">
+                        <h4>The concept drawings</h4>
+                        <p>
+                            The joystick was made with one axis in mind. When the stick would be moved to the left, the paddle would move to the left. 
+                            When it moved to the right, the paddle would move to the left. The paddle was not analog, meaning that it did not register pressure.
+                        </p>
+                        <p>
+                            The controller would work by the joystick element pushing on the left or right button. Internally it would have a seesaw that would up and down corresponding to the movement of the stick.
+                            To give it a way to spring back to the middle, a small flat needle was made to act as a spring. The basic set up is seen in the drawing on the left. 
+                            Note that the needle was not initially in this drawing.
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxCol">
+                        <img src="src/img/pixelPictures/joystick1.jpg" alt="">
+                    </div>
+                </div>
+                
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol" class="txtBxLFlxImgRRow" >
+                        <h4>The stl designs</h4>
+                        <p>
+                            The controller designer on the joystick STL design:
+                        </p>
+                        <p>
+                            “In the first three pictures is the first STL of the joystick base. It has two columns where the joystick handle would rest in. 
+                            To make it easier to fit in the stick, I made an entrenched slope in one of the columns.
+                        </p>
+                        <p>
+                            Next version saw the first version of the stick. It had a rounded of handle, the seesaw for pressing the buttons and the pin that would slot in the base columns. 
+                            Unfortunately, it wouldn’t slide into the base as thought. I was able however to cut the top ends of the collums in the slicer of my 3d printer.
+                             I added pegs to the top of the columns of the base, making is so that I could put the stick into the base. After that I would click the top ends on making the stick fit in the base. 
+                             Pictured in the following two pictures are is an overview of this version.
+                        </p>
+                        <p>
+                            The third version has seen the peg of the stick made thinner. This in the hope of it sliding into the hole now. It didn’t however. This version is pictured in the next two pictures.
+                        </p>
+                        <p>
+                            In the next three pictures you can see the forth version of this joystick. It has now two blocks that would press on the buttons. This way the controller would register the input from the player. 
+                            You can also see the slot the spring blade would fit in, as well as said blade on the stick. The blade was just too small however.
+                        </p>
+                        <p>
+                            The last version of, pictured in the last picture, has the blade elongated. This way it would fit in the slot on the base.”  
+                        </p>
+                        <p>
+                            This concludes as the final design of this joystick. The joystick would however come back in another form. But that will be shown in a later paragraph.
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxRow">
+                        <ol>
+                            <li><img src="src/img/stlPictures/joy base v1.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/joy base v1 2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/joy base v1 3.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/joy stick v2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/joy stick v2 2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/joy stick v3.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/joy stick v3 2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/joy stick v4.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/joy stick v4 2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/joy stick v4 3.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/joy stick v5.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/joy stick v5 2.png" alt=""></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="TxtquoteTxtBxResGlow">
+                    <div class="quoteTxtBx">
+                        <h3>The turn able knob</h3>
+                        <p>
+                            Here we will go into the design process of the turn able knob. First the drawn concepts will be shown and explained what the idea behind them was. 
+                            We will also show the 3d files were made and what the thought process was behind them.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol">
+                        <h4>The concept</h4>
+                        <p>
+                            The turn able knob was the original controller for Pong. Because of that it was also the controller that was in mind when designing the 
+                            controller for Plong. The player would turn the wheel to the left or right, with the paddle following that precise axis. 
+                        </p>
+                        <p>
+                            Internally there would be a potentiometer. I made the casing for this prototype around the potentiometer. 
+                            The button would slot into the fork of the potentiometer. To the right is a picture of the original 
+                            controller made by Evan Amos. If you click on the picture you will be linked to the source
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxCol">
+                        <a title="Evan-Amos, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:TeleGames-Atari-Pong.jpg"><img width="512" alt="TeleGames-Atari-Pong" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/TeleGames-Atari-Pong.jpg/512px-TeleGames-Atari-Pong.jpg?20120206201202"></a>
+                    </div>
+                </div>
+                
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol" class="txtBxLFlxImgRRow" >
+                        <h4>The stl designs</h4>
+                        <p>
+                            Below the controller designer talks about the design process:
+                        </p>
+                        <p>
+                            “Version one, pictured in the first two pictures, shows a cradle for the potentiometer and a knob for on top. 
+                            The Potentiometer would fit in the cradle with the power pins pointer two wards the openside. 
+                            The knob would slot onto the fork of the pot meter.
+                        </p>
+                        <p>
+                            The second version shown in the next two pictures. Here I made the cradle walls thicker and changed the design of the knob. 
+                            The knob was changed to give a more clear message that it could be turned. 
+                            The slot for the fork has also been made bigger.
+                        </p>
+                        <p>
+                            The next two pictures show the third version of this controller. The button was changed again as it was made bigger. 
+                            I also added a lid to covert the pot meter. It has a gap to make sure the cables can be let out of the cradle
+                        </p>
+                        <p>
+                            Version four is shown by the following four pictures. Here I made the button bigger and added layers to the top. 
+                            The lid now also has clips to click into the base, where there a now holes. 
+                            It didn’t fit however as the gap fitment was not right.
+                        </p>
+                        <p>
+                            The fifth version has shows me changing the clips for the topend. 
+                            This time it would fit better. This is shown in the next two pictures.
+                        </p>
+                        <p>
+                            In the last five pictures I had changed the base to be a bit more ergonomic. 
+                            The smoother side made it better for the left hand to hold in on the surface. 
+                            The button also became a bit bigger. This wat it could be handled a bit better. 
+                            The cover was als changed to cover the pot meter more.”
+                        </p>
+                        <p>
+                            This was the final design of the turn able knob. It was further developed into a different design. 
+                            This will however be discussed in a later paragraph. 
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxRow">
+                        <ol>
+                            <li><img src="src/img/stlPictures/knob proto 1.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/knob proto 2 2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/knob proto 3.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/knob proto 4 2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/knob proto 4 3.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/knob proto 5.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/knob proto 6.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/knob proto 6 2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/knob proto 6 3.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/knob proto 6 4.png" alt=""></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="TxtquoteTxtBxResGlow">
+                    <div class="quoteTxtBx">
+                        <h3>broadleaf cattail joystick</h3>
+                        <p>
+                            Here we will go into the design process of broadleaf cattail joystick. First the drawn concepts will be shown 
+                            and explained what the idea behind them was. We will also show the 3d files were made and what the thought process was behind them. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol">
+                        <h4>The concept drawings</h4>
+                        <p>
+                            This controller is the further development of the joystick. Here is also the case that the player would move 
+                            the joystick to the left or the right. The paddle would follow that movent.
+                        </p>
+                        <p>
+                            Internally is it different however. The turnable knob design has been turned into the base holding the stick and 
+                            potentiometer. With the potentiometer turned 180 degrees and the fork horizontal. 
+                            The design has a trench for the cable, and a lip so that the potentiometer could slot into it.
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxRow">
+                        <ol>
+                            <li><img src="src/img/pixelPictures/joystick2.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/joystick3.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/Sprite-0001.png" alt=""></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol" class="txtBxLFlxImgRRow" >
+                        <h4>The stl designs</h4>
+                        <p>
+                            Below the controller designer talks about the design process:
+                        </p>
+                        <p>
+                            "Pictures 1 to 6 show the first version of the broadleaf cattail. As said earlier, this controller is 
+                            the turnable knob base turned horizontally, and adding a base around it so that it could stand right 
+                            up without a problem. The slot for de potentiometer has also changed. The pot meter now van be sloted in to the hole.
+                             In there is a lip where it can rest on. With this version however it is advised to stick the 
+                             potentiometer to the base with some double sided tape
+                        </p>
+                        <p>
+                            The base has a hole where the cable from the potentiometer goes through. There is comes out in a trench under the controller. 
+                            This way the controller could be hooked up to the Plong prototype. We didn’t do this however since we didn’t have time to 
+                            solder the potentiometer at the time of the showcase.
+                        </p>
+                        <p>
+                            The sticks has been made to look as much as a cattail. On the bottom, the cylinder is flattened and a hole with and bar through it is made. 
+                            This bar fits in the fork of the potentiometer. Unfortunately the angle was not right in this version. 
+                            Picture 7 shows version two of the stick, where this is corrected."
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxRow">
+                        <ol>
+                            <li><img src="src/img/stlPictures/vossenstaart v1.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/vossenstaart v12.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/vossenstaart v1 3.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/vossenstaart v1 4.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/vossenstaart v1 5.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/vossenstaart v1 6.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/vossenstaart v2.png" alt=""></li>
+                        </ol>
+                    </div>
+                </div>
+
+                
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol" class="txtBxLFlxImgRRow" >
+                        <h4>The prototype</h4>
+                        <p>
+                            Below the controller designer talks about the prototype:
+                        </p>
+                        <p>
+                            “The prototype shows the STLs printed and painted for the prototype showcase. The prototype is shown in picture 1 through 8. 
+                            Here you can see a bit more clearer it depicts a broadleaf cattail. Notice the way the potentiometer is attached 
+                            to the stick and the trench for the cable.”
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxRow">
+                        <ol>
+                            <li><img src="src/img/pixelPictures/cattail1.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/cattail2.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/cattail3.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/cattail4.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/cattail5.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/cattail6.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/cattail7.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/cattail8.jpg" alt=""></li>
+                        </ol>
+                    </div>
+                </div>
+
+
+                <div class="TxtquoteTxtBxResGlow">
+                    <div class="quoteTxtBx">
+                        <h3>turn able treetrunk</h3>
+                        <p>
+                            Here we will go into the design process of turn able treetrunk. First the drawn concepts will be shown 
+                            and explained what the idea behind them was. We will also show the 3d files were made and what the thought process was behind them.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol">
+                        <h4>The concept drawings</h4>
+                        <p>
+                            The turning tree trunk is a further development of the turnable knob. In this version it is themed like a tree trunk. 
+                            The player could move the knob to left and right, which moves the controller into that corresponding direction.
+                        </p>
+                        <p>
+                            Internally not much has changed. The casing has been formed to look more like a treetrunk.
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxRow">
+                        <ol>
+                            <li>
+                                <img src="src/img/pixelPictures/turnableknob2.jpg" alt="">
+                            </li>    
+                            <li>
+                                <img src="src/img/pixelPictures/turnableknob3.jpg" alt="">
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol" class="txtBxLFlxImgRRow" >
+                        <h4>The stl designs</h4>
+                        <p>
+                            Below the controller designer talks about the design process:
+                        </p>
+                        <p>
+                            “Pictures to the left show the STLs for the turn able tree trunk. The first version are pictured in pictures 1 through 5. 
+                            The turn able knob base has been turned into a base that looks like the roots of a tree trunk. In the hole the potentiometer could be fitted.  
+                        </p>
+                        <p>
+                            In the base is also a hole where the wiring from the potentiometer could be fitted through. 
+                            This way the controller could be easily wired to the main Plong prototype.
+                        </p>
+                        <p>
+                            The knob itself has been turned into a slice of a tree trunk. Note the rings made on top of it emulating the growth rings of tree’s. 
+                            They felt too little however, and in version two (pictured in picture 6 through 7) I added a couple more. 
+                            After that I was happy with how it looked.”
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxRow">
+                        <ol>
+                            <li><img src="src/img/stlPictures/stronk v1.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/stronk v1 2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/stronk v1 3.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/stronk v1 4.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/stronk v1 5.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/stronk v2.png" alt=""></li>
+                            <li><img src="src/img/stlPictures/stronk v2 2.png" alt=""></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol" class="txtBxLFlxImgRRow" >
+                        <h4>The prototype</h4>
+                        <p>
+                            Below the designer talks about the prototype they made: 
+                        </p>
+                        <p>
+                            “The STL turned into the prototype pictured in pictures 1 through 3. It was coloured to look like a tree trunk. 
+                            The potentiometer was fitted in the base with some double sided tape. This to make sure it wouldn’t move too much. 
+                            This one was my favourite of the two prototypes.”
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxRow">
+                        <ol>
+                            <li><img src="src/img/pixelPictures/turnabletree1.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/turnabletree2.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/turnabletree3.jpg" alt=""></li>
+                        </ol>
+                    </div>
+                </div>
+
+            </div>
+            <div id="thatOrThat">
+                <div id="thatOrThatBox">
+                    <img src="src/img/pixelPictures/Sprite-0001.png" alt="">
+                    <img src="src/img/pixelPictures/turnabletree2.jpg" alt="">
+                </div>
+
+            </div>
+            <div>
+                <!--Which controller did we choose for Plong?-->
+                <div class="TxtquoteTxtBxResGlow">
+                    <div class="quoteTxtBx">
+                        <h2>Which controller did we choose for Plong?</h2>
+                        <p>
+                            Eventually we had to choose one controller to develop further into the main prototype for Plong. The controller designer showed the group two different designs. One being the cattail and the other the tree trunk. After some discussion and asking the student expert Niels van der burg (he had a project on GLOW once), we chose the broadleaf cattail.
+                        </p>
+
+                        <h3>Why did we choose the broadleaf Cattail?</h3>
+                        <p>
+                            The cattail was preferred for four reasons. The controller was more eyecatching. This because it was a big pole that was visible from a lot of angles. Secondly it was fairly simple in concept. We could scale it fairly easily because of it simplicity. Thirdly it fitted the theme good. This because the cat tail is a common riverside plant. Lastly the controller had a low amount of breakable parts. This version only had a pot meter as weak point.
+                        </p>
+                        <p>
+                            The rotatable stump was excluded because it fit the theme less well. Additionally, it was difficult to integrate into the setup we envisioned for GLOW. This was because it is a controller that needs to be placed on an elevated surface, which was less of an issue for the cat tail.
+                        </p>
+                    </div>
+                        
+                    </div>
+                </div>
+
+                <div class="TxtquoteTxtBxResGlow">
+                    <div class="quoteTxtBx">
+                        <h2>How was the controller developed further?</h2>
+                        <p>
+                            The broadleaf cattail was scaled into a bigger prototype. Now it was aproxamiteally 1 and a half meters long. The mechanism was also changed, which I will discuss below. The styling was lost however this time. This because we developed with prototype first, styling later mindset.
+                        </p>
+
+                </div>
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol" class="txtBxLFlxImgRRow" >
+                        <h3>The eventual prototype</h3>
+                        <p>
+                            The cat's tail consists of several components. The technical components were discussed in the previous paragraph. However, it will be mentioned here which of those components are included in the controller. The cat's tail is made up of three groups:
+                        </p>
+                        <ul>
+                            <li>The grip</li>
+                            <li>The arm with a rotating axis at the bottom, connected to the ground with elastic </li>
+                            <li>A slider potentiometer that is connected to the arm with a hook. The whole group is schematically represented as below:</li>
+                        </ul>
+                        <p>
+                            Below, each component group is described. Specifications such as length are also discussed for each component. The grip/handle The grip is shaped like a cat's tail. On the left side, there are four slots where the fingers fit. At a 45-degree angle to the right, there is a lowered section with a bar where the heart rate monitor fits. This can lead the cables from the heart rate monitor down through a hole that runs into the hollow tube of the arm. The grip has a diameter of 4 cm. It is 16 cm high. In the middle, at the bottom of the grip's length, there is a hole with a diameter of 1.7 cm. The grip is made with a PVC tube of 1.6 cm in mind. The grip has a 0.1 cm clearance, making it relatively loose. For further development, I recommend making the diameter smaller if possible. However, I was limited by the accuracy of the 3D printer and couldn't immediately test if it would fit over the arm.
+                        </p>
+                        <p>
+                            The arm and rotating axis The arm serves as the movable element that transmits the user's movement to the rest of the controller. The arm we used is a PVC tube of 1.7 cm. The length is approximately one and a half meters. The arm is attached to the controller setup with a rotating axis at the bottom of the arm's length, allowing the arm to rotate left or right. At the bottom of the arm, in the base plate where the controller is built, there is a hook and elastic. The elastic acts as a force that pulls the arm back to the neutral point. If the controller is pushed to the left, the elastic will automatically bring it back to the center. Additionally, the elastic ensures that the controller remains upright when not in use.
+                        </p>
+                        <p>
+                            The slider potentiometer The slider potentiometer is the component that registers the movement of the rotating arm and sends it back to the computer controlling Plong. The pot slider is connected to the rotating arm with a hook. When the rotating arm is pulled to the left, the hook pushes the connected pot slider to the left. If it goes to the right, it is pulled to the right again. At rest, the potentiometer is always in the center because the rotating arm is pulled to the center by the elastic.
+                        </p>
+                    </div>
+                    <div class="imgBxLFlxRow">
+                        <ol>
+                            <li><img src="src/img/pixelPictures/prototype1.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/prototype1 2.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/prototype 1 3.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/prototype 1 4.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/prototype 1 5.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/prototype 1 6.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/prototype 1 7.jpg" alt=""></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="TxtquoteTxtBxResGlow">
+                    <div class="quoteTxtBx">
+                        <h3>The controller grips</h3>
+                        <p>For the eventual prototype we needed some grips. The following paragraph discusses the grip prototypes that were made.</p>
+                    </div>
+                </div>
+                <div class="txtBxLImgR">
+                    <div class="txtBxLFlxCol" class="txtBxLFlxImgRRow" >
+                        <h3>The prototypes</h3>
+                        <p>Version 1 is pictured on top of the pictures of the controller prototypes. This was one was too small for the eventual prototype. As such I made the grip a bit bigger. This is pictured in picture 5, 8 and 9. This version was way too big however. So I course corrected to the version pictured in picture 1 through 3. This was again to small and so I made version 4 was nearly on perfect line, however it was still a bit too big. This one is pictured in 4, 6 and 7. The last one was perfect with a length of 16 cm and a diameter of 4 cm. This version is pictured in pictures 10 through 12.</p>
+                    </div>
+                    <div class="imgBxLFlxRow">
+                        <ol>
+                            <li><img src="src/img/pixelPictures/grip1.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/grip2.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/grip3.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/grip4.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/grip5.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/grip6.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/grip7.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/grip8.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/grip9.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/grip10.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/grip11.jpg" alt=""></li>
+                            <li><img src="src/img/pixelPictures/grip12.jpg" alt=""></li>
+                        </ol>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="TxtquoteTxtBxResGlow">
+                <div class="quoteTxtBx">
+                    <h2>Final advise for further development</h2>
+                    <h3>How to make the controller vandal-proof and GLOW-proof?</h3>
+                    <P>How to make the controller vandal-proof and GLOW-proof?
+                        The current controller is quite fragile in construction. The connection to the potentiometer can easily overstress the potentiometer. Additionally, the arm made of a PVC pipe is also quite fragile. The electronics are now exposed. Especially with the rain that falls in November, this is not advisable. I recommend that future developers improve the controller in this area.
+                    </P>
+                    <h3>How can a heart rate monitor be better integrated into the controller grip?</h3>
+                    <p>
+                        At the moment, the board on which the heart rate monitor is mounted is exposed to the user. Given the circumstances of GLOW, this is, of course, not advisable. I recommend that those further developing the controller integrate the heart rate monitor better into the controller grip, where it is behind a protective layer. This way, the board is no longer exposed.
+                    </p>
+                    <h3>
+                        How can the controller be better styled to fit the Plong theme?
+                    </h3>
+                    <p>
+                        The controller is currently quite bare in terms of styling. It does not yet look like a cat's tail that you would find next to a shore. I recommend the next designer work together with the vandal-proof designer. Together, you can ensure that the design is vandal-proof and GLOW-proof, but also fits within the theme.
+                    </p>
+                </div>
+            </div>    
+        </div>
+    </div> 
+          
+    
+    
+
+</body>
+</html>

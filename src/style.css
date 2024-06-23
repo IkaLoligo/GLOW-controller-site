@@ -1,0 +1,402 @@
+@font-face {
+    font-family: 'pongFont';
+    src: url(fonts/pongfont2.ttf);
+}
+@font-face {
+    font-family: 'pixelifySans-Bold';
+    src: url(fonts/PixelifySans-Bold.ttf);
+}
+@font-face {
+    font-family: 'pixelifySans-Medium';
+    src: url(fonts/PixelifySans-Medium.ttf);
+}
+@font-face {
+    font-family: 'pixelifySans-Regular';
+    src: url(fonts/PixelifySans-Regular.ttf);
+}
+@font-face {
+    font-family: 'pixelifySans-SemiBold';
+    src: url(fonts/PixelifySans-SemiBold.ttf);
+}
+body{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ background-color: #41ad49;
+ color: #45283c;
+ font-size: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'pongFont', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+p, li, ul, ol{
+    font-family: 'pixelifySans-Regular', sans-serif;
+    font-size: 1em;
+}
+
+table, th, td {
+    font-family: 'pixelifySans-Regular';
+    border: 1px solid;
+}
+
+a {
+    color: #41ad49;
+}
+
+.bold {
+    font-family: 'pixelifySans-Bold', sans-serif;
+    font-weight: bold;
+}
+
+.plong {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 20% 0px 20%;
+    padding: 200px 0px 0px 0px;
+}
+
+.plong div {
+    max-width: 1000;
+    width: 100%;
+    text-align: left;
+}
+
+.plong > div > h1,h2,h3,h4,h5,h6 {
+    text-align: left;
+}
+
+.txtBxLImgR {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2% 0 2% 0;
+    max-width: 100%;
+}
+
+
+
+
+.txtBxLFlxCol {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    color: #f9e33d;
+    background-color: #45283c;
+    margin: 0 2% 0 0;
+    padding: 2%;
+    border: 20% #45283c;
+    border-radius: 15px;
+    max-width: 70%;
+}
+
+.imgBxLFlxCol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    color: #f9e33d;
+    background-color: #45283c;
+    padding: 2%;
+    border: 20% #45283c;
+    border-radius: 15px;
+    max-width: 30%;
+}
+
+.imgBxLFlxCol img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imgBxLFlxCol ol {
+    padding: 2%;
+}
+
+.imgBxLFlxRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    color: #f9e33d;
+    background-color: #45283c;
+    padding: 2%;
+    border: 20% #45283c;
+    border-radius: 15px;
+    max-width: 30%;
+    max-height: 100%;
+}
+
+.imgBxLFlxRow ol {
+    padding: 0;
+    margin: 0;
+    list-style:decimal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.imgBxLFlxRow ol li {
+    flex: 0 0 48%; /* Adjust this value to fit your needs */
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+.imgBxLFlxRow ol li img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.imgBxLFlxRow img {
+    max-width: 90%;
+}
+
+.txtBxLTxtBxR {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2% 0 2% 0;
+    font-size: 1em;
+}
+
+.quoteTxtBx {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #f9e33d;
+    background-color: #45283c;
+    border-color:#45283c;
+    border-radius: 15px;
+    width: 95%;
+    font-family: 'pixelifySans-Regular';
+    padding-bottom: 2.5%;
+}
+
+.quoteTxtBx p{
+    padding: 0 2.5% 0 2.5%;
+}
+
+.quoteTxtBx table {
+    margin: 0 2.5% 0 2.5%;
+}
+
+.txtBxLFlxImgRRow{
+    width: 70%;
+}
+
+.TxtquoteTxtBxResGlow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0 0 0;
+}
+
+.txtBxLFlxImgRRow{
+    width: 50%;
+}
+
+#yellow {
+    background-color: #f9e33d;
+    margin: -1%;
+    padding-bottom: 15%;
+    --mask: conic-gradient(from -32.5deg at bottom,#0000,#000 1deg 64deg,#0000 65deg) 50%/114.67px 100%;
+    -webkit-mask: var(--mask);
+        mask: var(--mask);
+    
+}
+
+#yellow p{
+    font-size: 1.1em;
+}
+
+#green{
+    background-color: #41ad49;
+    margin: 0 -1% 0 -1%;
+    font-size: 1.1em;
+}
+
+#pong {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20% 0px 20%;
+    padding: 200px 0px 0px 0px;
+    
+}
+
+
+#pong div {
+    max-width: 1000;
+    width: 100%;
+    text-align: left;
+}
+
+#pong > div > h1,h2,h3,h4,h5,h6 {
+    text-align: left;
+}
+
+
+
+#index {
+    background-color: #45283c;
+    color: #f9e33d;
+    border: 20% #45283c;
+    border-radius: 15px;
+    padding-bottom: 10%;
+   
+}
+
+#index li,#index ul,#index h1,#index h2,#index h3,#index h4,#index h5,#index h6 {
+    margin-left: 2%;
+}
+
+
+#index  li {
+    list-style-position: inside;
+    text-align: left;
+    font-family: 'pixelifySans-Bold', sans-serif;
+    font-size: 1.2em;
+}
+
+#index  ul {
+    text-align: left;
+    font-family: 'pixelifySans-Bold', sans-serif;
+    font-size: 1em;
+    margin-left: -2.5%;
+}
+
+
+
+#pongFrontVisual {
+        display: flex;              /* Use flexbox to manage layout */
+        flex-direction: column;     /* Stack children vertically */
+        justify-content: center;    /* Center content vertically within the container */
+        align-items: center;        /* Center content horizontally within the container */
+        max-width: 750px;           /* Set a maximum width for the container */
+        width: 100%;                /* Use full width but respect max-width */
+        margin: 0 auto;            /* Center the div horizontally within its parent */
+        text-align: center;         /* Ensures that the text aligns center if not flex items */
+        height: auto;
+        padding: 0px 0px 50% 0px;   
+}
+
+#pongFrontVisual > img {
+    max-width: 80%;
+    max-height: auto;
+}
+
+#theElements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch; /* Stretch children to fill the container */
+}
+
+#txtbxLPlantsBeingPong {
+    margin: 0 2.5% 0 0;
+}
+
+#txtbxRPlantsBeingPong {
+    margin: 0 0 0 2.5%;
+}
+
+#thatOrThat {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    color: #f9e33d;
+    background-color: #45283c;
+    border-color:#45283c;
+    border-radius: 15px;
+    width: 100%;
+    font-family: 'pixelifySans-Regular';
+    padding-bottom: 2.5%;
+}
+
+#thatOrThatBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    color: #f9e33d;
+    background-color: #45283c;
+    padding: 2%;
+    border: 20% #45283c;
+    border-radius: 15px;
+    max-width: 50%;
+}
+
+#thatOrThatBox img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+
+@media screen and (max-width: 700px) {
+    .txtBxLImgR {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 2% 0 2% 0;
+    }
+
+    .txtBxLImgR > img {
+        max-width: 100%;
+        margin: 10% 0 10%;
+    }
+
+    .txtBxLTxtBxR {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 2% 0 2% 0;
+        font-size: 1.3em;
+    }
+
+    #yellow {
+        padding-bottom: 30%;
+        font-size: 0.8em;
+    }
+
+    #green {
+        font-size: 0.7em;
+    }
+
+    #index {
+        font-size: 1.1em;
+        
+    }
+
+    #index li, #index ul {
+        margin-left: -5%;
+    }
+    #txtbxLPlantsBeingPong {
+        margin: 0 0 10.5% 0;
+
+    }
+    
+    #txtbxRPlantsBeingPong {
+        margin: 0;
+    }
+ 
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100.4 66.93">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="100.4" height="66.93"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="0" y="0" width="100.4" height="66.93"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-3">
+      <g class="cls-2">
+        <image width="48" height="32" transform="translate(0 0) scale(2.09)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAYAAABU1PscAAAACXBIWXMAAAU6AAAFOgE+3gFaAAABP0lEQVRYhdVW2w3DIAwsKBJTMEqmZ5RMka/0i4pY2AZjAz2paiIw3Dl+fT5KuK/zqf1bw0sNZxHkIBYQYnI7iHASo/s6nxCTK58pMXmvBboO7iUOYSGk+0AootdeW4Q4hLC1kiC2T1OE+CBIjiLVs7cXKl+gRijvwcJNS4S4jFIoyVqX2mEB0JM1wpYiUAGjo0GIyeXfGEUaPwFSL63uxr5MttVkJHh11fxMGXBVpcUJqmVUMhJQaDlLvQ/MDJ1R8iXXEJM7Wi/TEGlRkaoCaheNxL7pON0zFmCwrvUYFzaEoMEKQMJw/dWJKU/O6qzY3diayTCnDSoKDrhxhYcpcHzYHMjYKRdKeG4c5jww44vlyGCTuDTgsn8WuLAe6rTWwmrkoWN9+dJz+C7JXiUxaywYLQxoJ97Fuy34i0ZG4QtosPg/GuIErAAAAABJRU5ErkJggg=="/>
+      </g>
+    </g>
+  </g>
+</svg>
