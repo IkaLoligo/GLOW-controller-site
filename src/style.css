@@ -192,6 +192,9 @@ a {
     padding: 0 2.5% 0 2.5%;
 }
 
+.quoteTxtBx h2, h3{
+    margin: 2.5%;
+}
 .quoteTxtBx table {
     margin: 0 2.5% 0 2.5%;
 }
@@ -238,7 +241,7 @@ a {
     justify-content: center;
     align-items: center;
     margin: 0px 20% 0px 20%;
-    padding: 200px 0px 0px 0px;
+    padding: 75px 0px 0px 0px;
     
 }
 
@@ -290,12 +293,12 @@ a {
         flex-direction: column;     /* Stack children vertically */
         justify-content: center;    /* Center content vertically within the container */
         align-items: center;        /* Center content horizontally within the container */
-        max-width: 750px;           /* Set a maximum width for the container */
+        max-width: 500px;           /* Set a maximum width for the container */
         width: 100%;                /* Use full width but respect max-width */
         margin: 0 auto;            /* Center the div horizontally within its parent */
         text-align: center;         /* Ensures that the text aligns center if not flex items */
         height: auto;
-        padding: 0px 0px 50% 0px;   
+        padding: 0px 0px 25% 0px;   
 }
 
 #pongFrontVisual > img {
